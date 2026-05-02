@@ -1,6 +1,7 @@
 #  Live OS Forensics — Academic Project
 
 > Evidence collection tool for live operating systems  
+> Authorised use only
 
 ---
 
@@ -105,7 +106,3 @@ A: Running processes (lost on shutdown), logged-in users, active network connect
 
 **Q: Why is USB forensics separate?**  
 A: USB devices are external evidence sources. The PowerShell script reads from them (chain of custody), unlike a dropper which writes to them.
-
----
-
-> Authorised use only
